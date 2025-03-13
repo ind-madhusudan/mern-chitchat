@@ -3,7 +3,7 @@ import Message from './Message'
 
 const ImportMsgs = () => {
   return (
-    <div>
+    <div className=' scroll-bar overflow-y-auto' style={{maxHeight: "calc(82vh - 12vh)"}}>
       <Message />
       <Message />
       <Message />
